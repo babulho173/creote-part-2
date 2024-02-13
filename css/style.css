@@ -1,0 +1,491 @@
+/* global css strat from hear */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: ' Spartan', sans-serif;
+    font-size: 16px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* global css end */
+
+
+/* header section css code */
+.contact{
+    background: #282f3b;
+    padding: 15px 0px;
+}
+/* left side address info*/
+
+.lside{
+
+}
+
+.lside a {
+    color: #aaafb8;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.lside a i{
+    color: #078586;
+    margin: 0px 5px 0px 0px;
+}
+
+.lside a span{
+    color: white;
+    margin: 0px 10px 0px 5px;
+}
+/* right side location info */
+.rside{
+    margin-left: 20px;
+}
+
+.rside a {
+    color: #aaafb8;
+    font-size: 15px;
+    margin-right: px;
+}
+
+.rside a i{
+    color: #078586;
+    margin-right: 10px;
+}
+
+.rside a span{
+    color: white;
+    margin: 0px 12px 0px 0px;
+}
+
+.share ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    margin-right: 6px;
+}
+
+.share ul li a {
+    margin-right: 5px;
+}
+
+.share ul li a i{ 
+    color: #078586;
+}
+
+
+/* header section css code */
+.head{  
+    width: 100%;
+}
+
+.head .logo img{
+    width: 100%;
+    height: auto;
+}
+/* menu css code */
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+}
+/* side menu css code */
+.sidemenu a i{
+    font-size: 30px;
+    margin: 0px 25px 0px 15px;
+    color: #282f3b;
+}
+
+.sidemenu a button{
+    padding: 0px 25px;
+    border-radius: 10px 0px 10px 0px;
+    background: #078586;
+    color: #fff;
+    border: 1px solid #078586;
+    line-height: 56px;
+    min-height: 56px;
+    min-width: 160px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-right: 30px;
+}
+
+.sidemenu a button:hover{
+    background: #fff;
+    color: #078586 !important;
+    border-radius: 0px 10px 0px 10px
+}
+
+.sidemenu img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+/* banner-section code  strat from hear*/
+
+.banner-section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    padding: 80px 0px;
+    margin-top: 80px;
+    background: url(../img/b.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #282f3b;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 65%;
+    z-index: 1;
+}
+
+.main-banner .banner-title {
+    margin-top: 30px;
+    position: absolute;
+    z-index: 10;
+}
+
+.main-banner .banner-title h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.pragrap-part {
+    margin-top: 13px;
+
+}
+
+.margin {
+    margin-top: 129px;
+
+}
+
+.banner-title {
+    position: absolute;
+    z-index: 10;
+}
+
+.icon {}
+
+.icon ul {}
+
+.icon ul li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.icon ul li a {
+    font-size: 13px;
+    color: #c5c0ba;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* margin-right: 20px; */
+}
+
+.icon ul li i {
+    font-size: 14px;
+    margin-left: 13px;
+    margin-right: 10px;
+    color: #c7c1b4;
+}
+
+.our-team {}
+
+.our-team p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+/* form-section css */
+.form-section {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.form-box {
+    padding: 45px 55px 13px 55px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 6px 15px 0px;
+
+}
+
+.form-section .form-box .ft {}
+
+.form-section .form-box .ft p {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.form-section .form-box .form-gruop {}
+
+.form-section .form-box .form-control {
+    padding: 17px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: 1px solid #e4e7ee;
+   
+}
+
+.select,
+textarea {
+    font-family: inherit;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 23px 0px 0px 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #e4e7ee;
+}
+
+.cus-btn {
+    text-transform: uppercase !important;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px 0px 12px 0px;
+    background-color: #078586;
+}
+
+.form-right {
+    margin-left: 20px;
+    margin-top: 9%;
+}
+
+.form-tp {}
+
+.form-tp h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #078586;
+    margin-bottom: 0px;
+}
+
+.form-tp .line {
+    width: 209px;
+    height: 2px;
+    margin-left: 3px;
+    margin-top: -6px;
+    margin-bottom: 15px;
+    background-color: #078586;
+}
+
+.form-tp h2 {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form-tp p {
+    font-size: 17px;
+    color: #4a4e56;
+    line-height: 27px;
+    margin-bottom: 28px;
+}
+
+.icon-box {
+    display: flex;
+    align-items: start;
+    padding: 22px 1px 1px 22px;
+    border: 1px solid #ebe9eb;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.7s;
+}
+
+.icon-box:hover {
+    transition: 0.7s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.icon-box .icon {}
+
+.icon-box .icon a {}
+
+.icon-box .icon a i {
+    margin-top: 6px;
+    font-size: 20px;
+    color: #fff;
+    background: #078586;
+    width: 40px;
+    height: 40px;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 18px;
+}
+
+.itp {}
+
+.itp h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.itp p {
+    color: #4a4e56;
+}
+
+.socile-icons{
+    
+}
+.socile-icons ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.socile-icons a{
+    
+}
+.socile-icons a i{
+    color: #078586;
+    width: 45px;
+    height: 45px;
+    background-color: #f0f3f9;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 23px;
+    margin-top: 22px;
+}
+
+/* map-section css */
+
+.map-section{
+width: 100%;
+padding:0px 0px 80px 0px;
+}
+
+.map-part{
+    
+}
+.map-part img{
+width: 100%;
+height: 100%;
+}
+
+/* sing up-section css */
+
+.singup-section {
+    width: 100%;
+    padding: 29px 0px;
+    background-color: #078586;
+    margin-bottom: 10%;
+
+}
+
+
+.sing-left {}
+
+.sing-box {}
+
+.sing-box .line-box {}
+
+.sing-box .line-box .line {
+    width: 14%;
+    height: 4px;
+    background-color: #fff;
+    transform: rotate(90deg);
+    margin-left: -56px;
+    margin-top: 37px;
+}
+
+.sing-box .line-title {
+    margin-top: -44px;
+}
+
+.sing-box .line-title h2 {
+    font-size: 33px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sing-box .line-title span {
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.sing-box .line-title p {
+    font-size: 17px;
+    color: #fff;
+}
+
+.sing-up {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.sing-up .form-group {}
+
+.sing-up .form-control {
+    padding: 18px 17px;
+    border-radius: 14px 0px 14px 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.sing-btn {
+    position: absolute;
+    width: 19%;
+    padding: 18px 17px;
+    background: #282f3b;
+    border-radius: 0px 0px 14px 0px;
+    top: 0;
+    bottom: 0;
+    left: 443px;
+    right: 0;
+}
+
+.sing-btn a {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
